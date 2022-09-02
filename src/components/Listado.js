@@ -3,7 +3,7 @@ import zapatillas from "./data.json"
 import Item from "./Item"
 
 
-export default function Listado(props) {
+export default function Listado() {
  
   return (
     
