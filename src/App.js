@@ -10,17 +10,17 @@ function App() {
 
     setCarrito(carrito + 1)
 
-  }
-   
+  }   
 
   return (
+
     <div className="App">
       <Cabecera carrito={carrito}/>
       <Listado comprar={comprarProducto}/>
     </div>
-  );
+
+  )
+
 }
-
-
 
 export default App;

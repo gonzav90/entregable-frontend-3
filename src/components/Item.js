@@ -17,5 +17,5 @@ export default function Item(props) {
       </h5>
       <button onClick={ ()=>{comprar(setStock(stock - 1))}}  disabled={stock<=0}>{(stock>0) ? "COMPRAR" :"SIN STOCK"}</button>
     </div>
-  );
+  )
 }
