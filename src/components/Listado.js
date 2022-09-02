@@ -11,7 +11,6 @@ export default function Listado(props) {
      
      {zapatillas.map((z)=><Item {...z} comprar={props.comprar}/>)}
       
-
     </div>
     
   )

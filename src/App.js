@@ -6,7 +6,7 @@ function App() {
 
   const [carrito, setCarrito] = useState(0)
 
-  function comprarProducto(){
+  function comprarProducto() {
 
     setCarrito(carrito + 1)
 
@@ -15,8 +15,10 @@ function App() {
   return (
 
     <div className="App">
+
       <Cabecera carrito={carrito}/>
       <Listado comprar={comprarProducto}/>
+
     </div>
 
   )
